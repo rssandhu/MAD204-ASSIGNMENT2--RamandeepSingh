@@ -1,0 +1,43 @@
+<!--
+    Course: [MAD204-01] - Lab Assignment 2
+    Student: Ramandeep Singh, A00194321
+    Date: 2025-11-20
+
+    List View Item: Single country in list (optional flag image).
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <!-- Country Name -->
+    <TextView
+        android:id="@+id/textViewCountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!-- (Optional) Flag image:
+    <ImageView
+        android:id="@+id/imageViewFlag"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_flag_placeholder"
+        android:contentDescription="Country Flag"
+        app:layout_constraintRight_toLeftOf="@id/textViewCountry"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="8dp"/>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
